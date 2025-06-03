@@ -6,10 +6,10 @@ import luffyGear4 from '../assets/Gear-Fourth.png'
 import luffyGear5 from '../assets/Pasted image (3).png'
 
 export const Content = () => {
-    return (<div className="mx-auto max-w-7xl bg-gear-50 px-12 py-16 bg-white rounded-xl my-16 mx-4">
-        <div className="flex flex-col justify-center items-center mx-4 mb-16">
-            <h2 className="text-5xl text-black font-bold">Luffy's Gears</h2>
-            <p className="text-xl text-gear-500">Luffy’s Gears are power-up forms enhancing his strength, speed.</p>
+    return (<div className="mx-auto max-w-7xl flex flex-col justify-center items-center bg-gear-50 lg:px-12 lg:py-16 px-4 py-6 bg-white rounded-xl lg:my-16 my-20 mx-4">
+        <div className="flex flex-col justify-center items-center lg:mx-4 mx-2 lg:mb-16 gap-1 mb-4">
+            <h2 className="lg:text-5xl text-3xl text-black font-bold">Luffy's Gears</h2>
+            <p className="lg:text-xl pl-4 text-xs text-gear-500">Luffy’s Gears are power-up forms enhancing his strength, speed.</p>
         </div>
         <Card gear="Gear 1" gearFlow="Luffy’s base form using his rubber body for flexible attacks. Relies on creativity, agility, and standard Haki without any enhanced transformations or massive power boosts." image={luffyGear1}/>
         <Card gear="Gear 2" gearFlow="Luffy pumps blood rapidly to increase speed and strength. His body emits steam, movements become blurred, and attacks land faster and harder with enhanced momentum and power." image={luffyGear2}/>
