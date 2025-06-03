@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gear-50: #eff8ff;
+  --color-gear-100: #def0ff;
+  --color-gear-200: #b6e2ff;
+  --color-gear-300: #75cdff;
+  --color-gear-400: #2cb5ff;
+  --color-gear-500: #00a0ff;
+  --color-gear-600: #007bd4;
+  --color-gear-700: #0061ab;
+  --color-gear-800: #00528d;
+  --color-gear-900: #043c74;
+  --color-gear-950: #042b4d;
+}
